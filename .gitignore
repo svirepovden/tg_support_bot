@@ -1,0 +1,13 @@
+
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+venv
+__pycache__
+database/__pycache__
+database/db.sqbpro
+database/db.sqlite
+config.py
