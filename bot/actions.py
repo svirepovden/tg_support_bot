@@ -65,6 +65,8 @@ def register_user(message: Message):
     user_id = message.from_user.id
     username = message.from_user.username
     role = 'guest'
+    if not(username):
+        username = ''
 
     if row_exists(database_name, 'users', 'id', str(user_id)):
         print('user exist')
