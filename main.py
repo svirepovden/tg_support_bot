@@ -1,4 +1,4 @@
-from bot.bot import bot_main
+from bot.main import bot_main
 from database import schema
 import config
 
