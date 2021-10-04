@@ -13,6 +13,7 @@ def start(update, context: CallbackContext):
 def echo(update, context: CallbackContext):
     context.bot.send_message(chat_id=update.effective_chat.id, text="We've got your message")
     save_message(update.message)
+    return TEXT_ISSUE
 
 
 def exit_(update, context):
